@@ -39,7 +39,6 @@
   font-size: 18px;
   font-family: Raleway;
   font-weight: normal;
-  line-height: normal;
   text-decoration: none;
   border-bottom: solid 1px #000;
 }
@@ -72,7 +71,7 @@
   font-size: 18px;
   font-family: Raleway;
   font-weight: normal;
-  line-height: 24px;
+  line-height: 130%;
   text-decoration: none;
   border-bottom: solid 1px #000;
 }
@@ -149,7 +148,7 @@
   font-size: 22px;
   font-family: Raleway;
   font-weight: normal;
-  line-height: 28px;
+  line-height: 130%;
   text-transform: uppercase;
   word-spacing: 18px;
   letter-spacing: 120%;
@@ -163,7 +162,6 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-transform: uppercase;
   border: solid 1px #fff;
   background-color: transparent;
@@ -181,7 +179,6 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -258,7 +255,6 @@
   font-family: Raleway;
   font-size: 20px;
   font-weight: normal;
-  line-height: normal;
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
@@ -302,7 +298,6 @@
   font-family: Raleway;
   font-size: 40px;
   font-weight: bold;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -314,7 +309,6 @@
   font-family: Raleway;
   font-size: 20px;
   font-weight: normal;
-  line-height: 24px;
 }
 
 .footer {
@@ -341,7 +335,6 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
