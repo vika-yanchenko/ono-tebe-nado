@@ -1,5 +1,4 @@
 .page * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -37,14 +36,19 @@
 
 .header__link {
   font-size: 18px;
-  font-family: Raleway;
   font-weight: normal;
   text-decoration: none;
   border-bottom: solid 1px #000;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+.header__link:hover {
+  color: #a05ae2;
+  border-bottom: solid 1px #a05ae2;
 }
 
 .header__link_active {
-  border-bottom: none;
+  border-bottom: solid 1px transparent;
 }
 
 .header__logo {
@@ -69,15 +73,20 @@
   max-width: max-content;
   color: #000;
   font-size: 18px;
-  font-family: Raleway;
   font-weight: normal;
   line-height: 130%;
   text-decoration: none;
   border-bottom: solid 1px #000;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
 }
 
 .address p {
   border-bottom: none;
+}
+
+.address a:hover {
+  color: #a05ae2;
+  border-bottom: solid 1px #a05ae2;
 }
 
 .header__address {
@@ -112,7 +121,6 @@
   text-transform: uppercase;
   display: block;
   font-size: 100px;
-  font-family: Raleway;
   font-weight: bold;
   line-height: 115%;
   letter-spacing: 30px;
@@ -146,7 +154,6 @@
   color: #FFF;
   text-align: center;
   font-size: 22px;
-  font-family: Raleway;
   font-weight: normal;
   line-height: 130%;
   text-transform: uppercase;
@@ -159,13 +166,11 @@
   color: #FFF;
   text-align: center;
   font-size: 22px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
   border: solid 1px #fff;
   background-color: transparent;
-  cursor: pointer;
 }
 
 .lots {
@@ -176,7 +181,6 @@
   padding: 0 0 27px 40px;
   color: #000;
   font-size: 40px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
@@ -232,7 +236,6 @@
   color: #FFF;
   margin-bottom: 24px;
   font-size: 22px;
-  font-family: Raleway;
   font-weight: bold;
   line-height: 120%;
   text-decoration-line: underline;
@@ -243,7 +246,6 @@
   display: block;
   color: #FFF;
   font-size: 20px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -252,11 +254,16 @@
 .lots__look-more-link {
   margin-left: 40px;
   color: #000;
-  font-family: Raleway;
   font-size: 20px;
   font-weight: normal;
   text-decoration: none;
   border-bottom: 1px solid #000;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+.lots__look-more-link:hover {
+  color: #a05ae2;
+  border-bottom: solid 1px #a05ae2;
 }
 
 .about {
@@ -295,7 +302,6 @@
   padding-top: 6px;
   align-self: center;
   color: #000;
-  font-family: Raleway;
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
@@ -306,7 +312,6 @@
   flex-direction: column;
   gap: 25px;
   color: #000;
-  font-family: Raleway;
   font-size: 20px;
   font-weight: normal;
 }
@@ -331,16 +336,21 @@
 .footer__menu-link {
   color: #000;
   text-align: center;
-  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
   border-bottom: 1px solid #000;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+.footer__menu-link:hover {
+  color: #a05ae2;
+  border-bottom: solid 1px #a05ae2;
 }
 
 .footer__menu-link_active {
-  border-bottom: none;
+  border-bottom: solid 1px transparent;
 }
 
 .footer__social-list {
