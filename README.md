@@ -1,1 +1,1 @@
-https://github.com/vika-yanchenko/ono-tebe-nado.git
+https://github.com/vika-yanchenko/ono-tebe-nado
