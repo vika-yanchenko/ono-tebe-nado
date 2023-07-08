@@ -27,7 +27,7 @@
   list-style: circle;
 }
 
-.header__links-list-item:first-child {  
+.header__links-list-item:first-child {
   list-style: none;
 }
 
@@ -198,12 +198,12 @@
   z-index: -2;
   padding: 50px 40px;
   min-height: 450px;
-  width: 430px; 
+  width: 430px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.card_type_film {  
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
@@ -249,7 +249,7 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%;  
+  line-height: 120%;
 }
 
 .lots__look-more-link {
